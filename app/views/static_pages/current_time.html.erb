@@ -1,0 +1,9 @@
+<h1>Aktualny czas</h1>
+
+<p>Aktualny czas: <%= DateTime.now %></p>
+
+<% if is_daytime? %>
+    <img src ='https://gfx.radiozet.pl/var/radiozet/storage/images/co-gdzie-kiedy-jak/pierwszy-dzien-wiosny-2020-dlugosc-dnia-i-nocy-20-i-21-marca-2020/948766-1-pol-PL/Pierwszy-dzien-wiosny-2020-dlugosc-dnia-i-nocy-20-i-21-marca-2020_article.jpg'>
+<% else %>
+    <img src = 'https://gfx.radiozet.pl/var/radiozet/storage/images/co-gdzie-kiedy-jak/przesilenie-zimowe-2018-ile-trwa-dzien-i-najdluzsza-noc-w-polsce-data/843965-1-pol-PL/Przesilenie-zimowe-2018-ile-trwa-dzien-i-najdluzsza-noc-w-Polsce-DATA_articleSM.webp'>
+<% end %>

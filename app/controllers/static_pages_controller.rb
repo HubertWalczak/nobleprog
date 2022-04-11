@@ -8,4 +8,7 @@ class StaticPagesController < ApplicationController
             render 'privacy'
         end
     end
+
+    def current_time
+    end
 end
